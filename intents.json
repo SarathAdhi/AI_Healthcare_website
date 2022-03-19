@@ -1,0 +1,87 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "Hey",
+        "Heyy",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ],
+      "link":""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Byee"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day"
+      ],
+      "link":""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thankyou",
+        "Thank u",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ],
+      "link":""
+    },
+    {
+      "tag": "headache",
+      "patterns": [
+        "I have headache",
+        "I have head pain",
+        "I have headpain",
+        "I have severe headpain",
+        "I have severe headache",
+        "headache relif",
+        "headache"
+      ],
+      "responses": [
+        "If it's a normal headache, stop giving strain to your eyes and just take a 60 minutes nap. If you have severe headache Read this"
+      ],
+      "link": "/description?blog=Headache"
+    },
+    {
+      "tag": "cold",
+      "patterns": [
+        "I have cold",
+        "I have head pain with cold",
+        "I have headpain and cold",
+        "I have severe cold",
+        "I have severe headache and cold",
+        "cold relif",
+        "cold home remedy",
+        "cold home-remedy",
+        "cold"
+      ],
+      "responses": [
+        "If it's a normal cold or running nose, just take rest. If you have severe cold Check out this remedies"
+      ],
+      "link": "/description?blog=Cold"
+    }
+  ]
+}

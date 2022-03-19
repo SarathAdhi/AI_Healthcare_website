@@ -1,0 +1,40 @@
+{
+  "probs": [
+    {
+      "id": "Headache",
+      "title": [
+        "Try a Cold Pack",
+        "Use a Heating Pad or Hot Compress",
+        "Ease Pressure on Your Scalp or Head",
+        "Dim the Lights",
+        "Try Not to Chew",
+        "Get Some Caffeine"
+      ],
+      "description": [
+        "If you have a migraine, place a cold pack on your forehead. Ice cubes wrapped in a towel, a bag of frozen vegetables, or even a cold shower may ease the pain. Keep the compress on your head for 15 minutes, and then take a break for 15 minutes.",
+        "If you have a tension headache, place a heating pad on your neck or the back of your head. If you have a sinus headache, hold a warm cloth to the area that hurts. A warm shower might also do the trick.",
+        "If your ponytail is too tight, it could cause a headache. These 'external compression headaches' can also be brought on by wearing a hat, headband, or even swimming goggles that are too tight.",
+        "Bright or flickering light, even from your computer screen, can cause migraine headaches. If you're prone to them, cover your windows with blackout curtains during the day. Wear sunglasses outdoors. You might also add anti-glare screens to your computer and use daylight-spectrum fluorescent bulbs in your light fixtures.",
+        "Chewing gum can hurt not just your jaw but your head. The same is true for chewing your fingernails, lips, the inside of your cheeks, or handy objects like pens. Avoid crunchy and sticky foods, and make sure you take small bites. If you grind your teeth at night, ask your dentist about a mouth guard. This may curb your early-morning headaches.",
+        "Have some tea, coffee, or something with a little caffeine in it. If you get it early enough after the pain starts, it could ease your headache pain. It can also help over-the-counter pain relievers like acetaminophen work better. Just don't drink too much because caffeine withdrawal can cause its own type of headache."
+      ]
+    },
+    {
+      "id": "Cold",
+      "title": [
+        "Stay hydrated",
+        "Soothe a sore throat",
+        "Combat stuffiness",
+        "Relieve pain",
+        "Antibiotics"
+      ],
+      "description": [
+        "Water, juice, clear broth or warm lemon water with honey helps loosen congestion and prevents dehydration. Avoid alcohol, coffee and caffeinated sodas, which can make dehydration worse.",
+        "A saltwater gargle — 1/4 to 1/2 teaspoon salt dissolved in an 8-ounce glass of warm water — can temporarily relieve a sore or scratchy throat. Children younger than 6 years are unlikely to be able to gargle properly. You can also try ice chips, sore throat sprays, lozenges or hard candy. Use caution when giving lozenges or hard candy to children because they can choke on them. Don't give lozenges or hard candy to children younger than 6 years.",
+        "Over-the-counter saline nasal drops and sprays can help relieve stuffiness and congestion. In infants, experts recommend putting several saline drops into one nostril, then gently suctioning that nostril with a bulb syringe. To do this, squeeze the bulb, gently place the syringe tip in the nostril about 1/4 to 1/2 inch (about 6 to 12 millimeters), and slowly release the bulb. Saline nasal sprays may be used in older children.",
+        "For children 6 months or younger, give only acetaminophen. For children older than 6 months, give either acetaminophen or ibuprofen. Ask your child's doctor for the correct dose for your child's age and weight. Adults can take acetaminophen (Tylenol, others), ibuprofen (Advil, Motrin IB, others) or aspirin. Use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 3, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. This is because aspirin has been linked to Reye's syndrome, a rare but potentially life-threatening condition, in such children.",
+        "These attack bacteria, but they're no help against cold viruses. Avoid asking your doctor for antibiotics for a cold or using old antibiotics you have on hand. You won't get well any faster, and inappropriate use of antibiotics contributes to the serious and growing problem of antibiotic-resistant bacteria."
+      ]
+    }
+  ]
+}

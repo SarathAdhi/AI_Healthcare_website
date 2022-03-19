@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chatbot.css') }}">
+    <title>ChatBot</title>
+</head>
+<body>
+    <div class="container">
+        <div class="chatbot-header">
+            <h3>Your Personal Healthcare Bot</h3>
+        </div>
+        <div class="chatbot-container">
+            
+            <div class="msg-container">
+
+                <div class="msg-bot">
+                    <p>Hii, I am your BOT</p>
+                </div>
+
+                {% for i in message %}
+                    <div class="msg-user">
+                        <p>{{i[0]}}</p>
+                    </div>
+                    <div class="msg-bot">
+                        <p>
+                            {{i[1]}}
+                            {% if i[2] %}
+                                <a href={{i[2]}}>Click here</a>
+                            {% endif %}
+                        </p>
+
+                    </div>
+                {% endfor %}
+                
+            </div>
+            
+        </div>
+            <form action="/chatbot" method="post" class="type-msg">
+                <input type="text" id="msg" name="msg" autofocus placeholder="Type your message here.." autocomplete="off">
+            </form>
+        </div>
+
+    </div>
+</body>
+<script>
+    document.getElementById('msg')
+        .addEventListener('keyup', function (event) {
+            if (event.code === 'Enter') {
+                event.preventDefault();
+            }
+        });
+    document.querySelector('.chatbot-container').scrollTo(0, 100000000000000000);
+
+</script>
+</html>

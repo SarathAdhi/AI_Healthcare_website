@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/blog.css') }}">
+    <title>Blog</title>
+</head>
+<body>
+    <h1 class="heading">{{request.args.get('blog')}}</h1>
+    <div class="blog-container"></div>
+</body>
+<script>
+    var currentURL = new URL(window.location.href);
+    var blog = currentURL.searchParams.get('blog')
+    var APIURL = window.location.origin+"/API"
+
+    fetch(APIURL).then(response => response.json()).then(data => {
+        var element = data.probs
+        for(var i=0; i<element.length; i++) {
+            if(element[i].id === blog) {
+                for(var x=0; x<element[i].title.length; x++){
+                    var div = document.querySelector('div')
+                    var h2 = document.createElement("h2")
+                    h2.innerHTML = element[i].title[x]
+
+                    var p = document.createElement("p")
+                    p.innerHTML = element[i].description[x]
+
+                    div.append(h2)
+                    div.append(p)
+                }
+                break;
+            }
+        }
+    })
+</script>
+</html>

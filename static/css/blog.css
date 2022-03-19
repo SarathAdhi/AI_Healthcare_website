@@ -1,0 +1,15 @@
+.heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+.blog-container {
+    margin: 10px;
+}
+
+.blog-container h2 {
+    text-decoration: underline;
+}
+.blog-container p {
+    font-size: 18px;
+}
