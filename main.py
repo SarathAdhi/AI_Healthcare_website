@@ -48,4 +48,4 @@ def chatbotPost():
         return render_template('chatbot.html', message = zip(user_message, bot_message, link))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
