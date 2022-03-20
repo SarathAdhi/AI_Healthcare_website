@@ -9,6 +9,7 @@
     <title>ChatBot</title>
 </head>
 <body>
+    {% include "navbar.html" %}
     <div class="container">
         <div class="chatbot-header">
             <h3>Your Personal Healthcare Bot</h3>
@@ -28,7 +29,7 @@
                     <div class="msg-bot">
                         <p>
                             {{i[1]}}
-                            {% if i[2] %}
+                            {% if i[2] != "" %}
                                 <a href={{i[2]}}>Click here</a>
                             {% endif %}
                         </p>

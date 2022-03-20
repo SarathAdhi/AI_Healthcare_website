@@ -8,6 +8,7 @@
     <title>Blog</title>
 </head>
 <body>
+    {% include "navbar.html" %}
     <h1 class="heading">{{request.args.get('blog')}}</h1>
     <div class="blog-container"></div>
 </body>
@@ -21,7 +22,7 @@
         for(var i=0; i<element.length; i++) {
             if(element[i].id === blog) {
                 for(var x=0; x<element[i].title.length; x++){
-                    var div = document.querySelector('div')
+                    var div = document.querySelector('.blog-container')
                     var h2 = document.createElement("h2")
                     h2.innerHTML = element[i].title[x]
 
